@@ -1,0 +1,40 @@
+/* src/components/Count.css */
+.counter-container {
+  text-align: center;
+  transition: background-color 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.counter-title {
+  font-size: 3rem;
+  color: rgb(59, 31, 143); /* Text color when count is 0 */
+}
+
+.btn {
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 16px; /* Font size 16px */
+  font-family: 'Afacad', sans-serif; /* Set font to Afacad */
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: rgb(58, 31, 140); /* Button background */
+  color: white; /* Text color white */
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background-color: white; /* Hover background */
+  color: rgb(58, 31, 140); /* Hover text color */
+  border: 2px solid rgb(58, 31, 140); /* Hover border color */
+}
+
+.reset {
+  background-color: rgb(58, 31, 140);
+  color: white;
+}
+
+.reset:hover {
+  background-color: white;
+  color: rgb(58, 31, 140);
+  border: 2px solid rgb(58, 31, 140);
+}
